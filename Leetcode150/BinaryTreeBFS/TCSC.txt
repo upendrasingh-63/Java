@@ -1,0 +1,2 @@
+Time Complexity: O(N), where N is the number of nodes in the binary tree. Each node is visited and processed exactly once.
+Space Complexity: O(W), where W is the maximum width of the binary tree. In the worst-case scenario, W would be N/2 (approximately N), so the space complexity can be considered O(N). This is due to the queue used in the BFS algorithm, which can hold all nodes at the widest level of the tree.
